@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "Keep-Tabs",
+  "description": "Save opened tabs, and you can resume them after you close the browser, only by click twice.",
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html"
+  }
+}
